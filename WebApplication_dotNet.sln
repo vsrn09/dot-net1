@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_dotNet", "WebApplication_dotNet.csproj", "{FE3C24F0-DCDB-4060-B854-BA953E0831D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{6DFCE119-270E-4456-90BA-7A5028269691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE3C24F0-DCDB-4060-B854-BA953E0831D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3C24F0-DCDB-4060-B854-BA953E0831D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3C24F0-DCDB-4060-B854-BA953E0831D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3C24F0-DCDB-4060-B854-BA953E0831D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FF9F252-90B9-4874-AD48-6F3394DFCBB6}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE3C24F0-DCDB-4060-B854-BA953E0831D5} = {6DFCE119-270E-4456-90BA-7A5028269691}
+	EndGlobalSection
+EndGlobal
