@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebApplication_dotNet</RootNamespace>
     <AssemblyName>WebApplication_dotNet</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+   <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;net452;net480</TargetFrameworks>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44307</IISExpressSSLPort>
