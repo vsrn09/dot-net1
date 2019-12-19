@@ -15,24 +15,7 @@
     <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
     <!--RuntimeIdentifiers Condition="'$(RUN_RUNTIME_STORE_TESTS)' != 'true'">win7-x86;win7-x64;linux-x64;osx-x64</RuntimeIdentifiers-->
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+ 
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
